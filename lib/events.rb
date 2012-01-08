@@ -37,9 +37,6 @@ module Caca
     end
   end
   class Event::Key
-    def quit?
-      #"".split('').member?(@ch.chr)
-    end
   end
   class Event::Key::Press
     def down
