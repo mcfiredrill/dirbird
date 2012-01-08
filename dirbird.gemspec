@@ -6,12 +6,14 @@ Gem::Specification.new do |s|
   s.description = "A ascii/ansi art editor using the libcaca ruby bindings."
   s.authors     = ["Tony Miller"]
   s.email       = 'mcfiredrill@gmail.com'
+  s.homepage    = 'http://github.com/mcfiredrill/dirbird'
+
+  s.require_paths = %w[lib]
   s.executables = ["dirbird"]
+
   s.files       = %w[
-    bin/dirbird.rb
+    bin/dirbird
     lib/editor.rb
     lib/events.rb
   ]
-  s.homepage    =
-    'http://github.com/mcfiredrill/dirbird'
 end
