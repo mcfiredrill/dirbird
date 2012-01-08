@@ -120,7 +120,7 @@ class Editor
         @cursor_x += 1
       elsif e.draw
         @canvas.put_str(@cursor_x,@cursor_y-4, CHARS[@cur_char])
-        #cursor_x+=1
+        @cursor_x+=1
       elsif e.mouse_draw
         @canvas.put_str(@d.mouse_x, @d.mouse_y, CHARS[@cur_char])
       elsif e.change_fg_color
