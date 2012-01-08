@@ -1,0 +1,7 @@
+DIRBIRD
+-------
+An color text art editor. Uses the libcaca ruby bindings.
+
+Currently, the libcaca ruby bindings only work with ruby 1.8.7.
+This program also needs a patch for the ruby bindings, which is only
+in a branch in my libcaca fork called 'ruby-stuffs', for now.
