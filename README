@@ -6,4 +6,8 @@ Currently, the libcaca ruby bindings only work with ruby 1.8.7.
 This program also needs a patch for the ruby bindings, which is only
 in a branch in my libcaca fork called 'ruby-stuffs', for now.
 
-Works best with the x11 driver.
+Works best with the x11 driver, do
+export CACA_DRIVER=x11
+
+The keybindings are vi-like for the most part, h,j,k,l moves the cursor. There
+is insert mode and ex mode. Use :w to save and :q to quit.
